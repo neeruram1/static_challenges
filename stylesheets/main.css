@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header{
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-indent: 20px;
+  padding: 20px;
+}
+
+header span{
+  background: rgb(135, 185, 73);
+  float: right;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 4.5;
+  width: 125px;
+  height: 70px;
+}
+
+header nav ul {
+  background: rgb(0, 48, 105);
+  border-top: 1px solid white;
+  padding: 20px 100px;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 150px;
+}
+
+#dam {
+  background: url('../images/1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  height: 500px;
+}
+
+#dam h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-indent: 35px;
+  padding: 30px;
+}
+
+#text {
+  background: black;
+  color: white;
+  padding: 20px 30px;
+  font-size: 15px;
+}
+
+#historic_places {
+  background: white;
+  padding-top: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+#historic_places ul li {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 47px;
+}
+
+#historic_places img {
+  height: 150px;
+  width: 355px;
+  object-fit: cover;
+}
+
+#footer {
+  background: black;
+  color: white;
+  padding: 25px;
+  font-size: 15px;
+}
